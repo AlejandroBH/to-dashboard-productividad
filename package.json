@@ -1,0 +1,24 @@
+{
+  "name": "dashboard-productividad",
+  "version": "1.0.0",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandroBH/to-dashboard-productividad.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlejandroBH/to-dashboard-productividad/issues"
+  },
+  "homepage": "https://github.com/AlejandroBH/to-dashboard-productividad#readme",
+  "description": "",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
