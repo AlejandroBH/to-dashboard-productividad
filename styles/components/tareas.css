@@ -1,0 +1,70 @@
+.filtros-tareas {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.filtros-tareas button {
+  background-color: var(--color-fondo);
+  color: var(--color-texto-secundario);
+  padding: 8px 16px;
+  border-radius: var(--radio-borde);
+  border: 1px solid var(--color-borde);
+  cursor: pointer;
+  transition: var(--transicion);
+  font-size: 14px;
+  flex-grow: 1;
+  min-width: 90px;
+}
+
+.filtros-tareas button:hover {
+  background-color: var(--color-borde);
+}
+
+.filtros-tareas .filtro-activo {
+  background-color: var(--color-principal);
+  color: white;
+  border-color: var(--color-principal);
+  font-weight: 600;
+}
+
+.filtros-tareas .filtro-activo:hover {
+  background-color: var(--color-principal);
+}
+
+.lista-tareas {
+  min-height: 100px;
+  padding-top: 8px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 48px 16px;
+  border: 2px dashed var(--color-borde);
+  border-radius: var(--radio-borde);
+  color: var(--color-texto-secundario);
+  font-style: italic;
+}
+
+.item-tarea {
+  display: flex;
+  align-items: center;
+  padding: 12px 8px;
+  border-bottom: 1px solid var(--color-borde);
+  transition: background-color 0.1s;
+  justify-content: space-between;
+}
+
+.item-tarea:hover {
+  background: var(--color-fondo);
+}
+
+.contenido-tarea {
+  display: flex;
+  gap: 12px;
+}
+
+.checkbox-tarea {
+  width: 18px;
+}

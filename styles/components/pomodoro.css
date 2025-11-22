@@ -1,0 +1,83 @@
+.panel-pomodoro {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.temporizador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.circulo-temporizador {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 10px solid var(--color-principal);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tiempo-restante {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--color-principal);
+}
+
+.controles-temporizador {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 24px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.modo-temporizador {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+  padding: 8px;
+  border-radius: var(--radio-borde);
+  background-color: var(--color-fondo);
+  border: 1px solid var(--color-borde);
+}
+
+.modo-temporizador button {
+  background: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--color-texto-secundario);
+  transition: var(--transicion);
+}
+
+.modo-temporizador .modo-activo {
+  background-color: var(--color-principal);
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(59, 130, 246, 0.3);
+}
+
+.sesiones-completadas {
+  font-size: 16px;
+  color: var(--color-texto-secundario);
+  font-weight: 600;
+}
+
+@media (max-width: 400px) {
+  .controles-temporizador {
+    flex-direction: column;
+  }
+  .controles-temporizador button {
+    width: 100%;
+  }
+}

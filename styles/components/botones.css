@@ -1,0 +1,49 @@
+.btn-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 8px;
+  border-radius: var(--radio-borde);
+  transition: background-color 0.15s;
+}
+
+.btn-toggle:hover {
+  background-color: var(--color-borde);
+}
+
+.btn-primario,
+.btn-secundario {
+  padding: 12px 20px;
+  font-weight: 600;
+  border-radius: var(--radio-borde);
+  cursor: pointer;
+  transition: var(--transicion);
+  border: 1px solid transparent;
+  font-size: 16px;
+}
+
+.btn-primario {
+  background-color: var(--color-principal);
+  color: white;
+}
+
+.btn-primario:hover {
+  background-color: var(--color-secundario);
+  box-shadow: 0 5px 15px -3px rgba(59, 130, 246, 0.5);
+}
+
+.btn-secundario {
+  background-color: transparent;
+  color: var(--color-texto-principal);
+  border-color: var(--color-borde);
+}
+
+.btn-secundario:hover {
+  background-color: var(--color-borde);
+}
+
+.btn-secundario:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
