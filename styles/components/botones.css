@@ -47,3 +47,11 @@
   opacity: 0.6;
   cursor: not-allowed;
 }
+
+.btn-eliminar {
+  background: var(--color-peligro);
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  padding: 12px 20px;
+}
