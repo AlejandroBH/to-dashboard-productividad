@@ -1,0 +1,6 @@
+@keyframes notificacion {
+  0% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+}

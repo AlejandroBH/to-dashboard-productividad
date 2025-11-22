@@ -106,7 +106,7 @@ class DashboardProductividad {
       localStorage.setItem("tiempoEnfocado", this.tiempoEnfocado);
 
       // Notificación
-      this.mostrarNotificacion(
+      mostrarNotificacion(
         "¡Sesión de trabajo completada! Toma un descanso de 5 minutos."
       );
 
@@ -115,7 +115,7 @@ class DashboardProductividad {
         this.cambiarModoTemporizador("descanso");
       }, 1000);
     } else {
-      this.mostrarNotificacion("¡Descanso terminado! Listo para trabajar.");
+      mostrarNotificacion("¡Descanso terminado! Listo para trabajar.");
       setTimeout(() => {
         this.cambiarModoTemporizador("trabajo");
       }, 1000);
