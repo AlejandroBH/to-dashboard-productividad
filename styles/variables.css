@@ -14,3 +14,13 @@
   --radio-borde: 12px;
   --transicion: all 0.2s ease-in-out;
 }
+
+.modo-oscuro {
+  --color-fondo: #111827;
+  --color-superficie: #1f2937;
+  --color-texto-principal: #f9fafb;
+  --color-texto-secundario: #9ca3af;
+  --color-borde: #374151;
+  --sombra-tarjeta: 0 10px 15px -3px rgb(0 0 0 / 0.3),
+    0 4px 6px -4px rgb(0 0 0 / 0.3);
+}
